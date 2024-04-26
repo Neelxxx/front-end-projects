@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(0, 0%, 100%);
+    border: 2px solid black;
+    height:600px;
+    width: 400px;
+    position: absolute;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 8px 8px 0 0 rgb(0, 0, 0);
+    padding: 20px;
+}
+.outer-container:hover{
+    box-shadow: 12px 12px 0 0 rgb(0, 0, 0);
+}
+.inner-container{
+    position: relative;
+    height: 300px;
+    width: 400px;
+    border-radius: 20px;
+    
+}
+.inner-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.tag{
+    margin: 10px;
+    display: block;
+    width: 75px;
+    height: 25px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    margin-left: 0;
+    padding: 4px;
+}
+.tag-text{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 16px;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+.date{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 50%);
+}
+.heading{
+    font-weight: 800;
+    color:hsl(0, 0%, 7%);
+}
+.heading:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.paragraph{
+    margin-top: 0;
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    font-weight: 500;
+    text-align: left;
+}
+.card-container{
+    display: flex;
+    width: 200px;
+    margin-top: 40px;
+}
+.avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.avatar img{
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+}
+.avatar-name{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 800;
+}
