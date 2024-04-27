@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+.outer-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 45em;
+    width: 25em;
+    background-color: hsl(0, 0%, 12%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 1em;
+    box-shadow: 1em 1em 1em 0 rgb(0, 0, 0,0.2);
+}
+.avatar-div{
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.avatar-icon{
+    height: 6em;
+    width: 6em;
+    border-radius: 5em;
+}
+.avatar-icon img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5em;
+}
+.tmp{
+    width: 28em;
+    height: 5em;
+}
+h1{
+    margin: 0;
+    margin-top: 1em;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+h3{
+    margin: 0;
+    margin-top: 0.5em;
+    font-weight: 700;
+    color: hsl(75, 94%, 57%);
+}
+p{
+    margin: 0;
+    margin-top: 2em;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+.button{
+    height: 4em;
+    width: 24em;
+    border-radius:1em;
+    background-color:hsl(0, 0%, 20%);
+    margin-bottom: 1em;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    text-decoration: None;
+    transition-duration: 0.8s;
+    font-weight: 700;
+    box-shadow: 0.3em 0.3em 0.3em 0 rgb(0, 0, 0,0.2);
+}
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+.button-last{
+    height:  4em;
+    width: 24em;
+    border-radius:1em;
+    background-color:hsl(0, 0%, 20%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    text-decoration: None;
+    transition-duration: 0.4s;
+    font-weight: 700;
+    transition-duration: 0.8s;
+    box-shadow: 0.3em 0.3em 0.3em 0 rgb(0, 0, 0,0.2);
+}
+.button-last:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
